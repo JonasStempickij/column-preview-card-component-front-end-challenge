@@ -97,11 +97,12 @@ p {
 
 article {
   border-radius: 2rem;
-  max-width: 990px;
+  max-width: 400px;
   margin: 0px auto;
   @media (min-width: $desktop) {
     display: flex;
     flex-direction: row;
+    max-width: 990px;
   }
 }
 
@@ -117,6 +118,7 @@ a {
   text-decoration: none;
   padding: 1rem 2.5rem;
   margin-top: auto;
+  border: 2px solid $very-light-gray;
   border-radius: 2rem;
   background-color: $very-light-gray;
   white-space: nowrap;
